@@ -7,11 +7,7 @@ from collections import defaultdict # Useful for Elo and history tracking
 from sklearn.model_selection import train_test_split # For train/test splitting
 from sklearn.preprocessing import StandardScaler # For scaling numerical features
 from sklearn.pipeline import Pipeline # To chain preprocessing and model
-from sklearn.linear_model import LogisticRegression # A good baseline model
-# You can uncomment and add other models later:
-# from sklearn.ensemble import RandomForestClassifier
-# import xgboost as xgb
-# import lightgbm as lgb
+from sklearn.linear_model import LogisticRegression 
 from sklearn.metrics import accuracy_score, classification_report, roc_auc_score # Evaluation metrics
 
 
